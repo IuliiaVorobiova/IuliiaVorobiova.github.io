@@ -516,7 +516,7 @@
 
   header {
     position: relative;
-    background-color: #5989e5;
+    background-color:none;
     height: 75vh;
     min-height: 25rem;
     width: 100%;
@@ -525,11 +525,11 @@
   
   header video {
     
-   max-width: 120%;
-    max-height: 120%;
+    max-width: 109%;
+    max-height: 110%;
     width: auto;
     height: auto;
-    transform: translateX(-5%) translateY(-5%);
+    transform: translateX(-6%) translateY(0%);
    
   }
   
@@ -544,14 +544,14 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #5989e5;
+    background-color: none;
     opacity: 0.1;
     z-index: 1;
   }
 
   @media (pointer: coarse) and (hover: none) {
     header {
-      background: url('../img/feature-2.png') #5989e5 no-repeat center center scroll;
+      background: url('../img/feature-2.png') white no-repeat center center scroll;
     }
     header video {
       display: none;
