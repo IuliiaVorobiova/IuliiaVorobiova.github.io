@@ -71,7 +71,7 @@ ul, ol {
 hr {
 	height: 4px;
 	width: 70px;
-	text-align: center;
+	text-align: left;
 	position: relative;
 	background: #2065A1;;
 	margin: 0 auto;
